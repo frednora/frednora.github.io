@@ -6,29 +6,25 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #69A583;
+    background-color: #F2EFEF;
 }
 
 .nav {
     text-align: center;
 }
-
 .nav ul {
     margin: 0;
 }
-
 .nav li {
     display: inline;
     padding: 0 2%;
 }
-
 .nav a {
     display: inline-block;
-    color: white;
+    color: #808080;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3);
 }
@@ -39,24 +35,25 @@ html, body {
     font-size: 1.1em;
     border-bottom: 2px solid rgba(255, 255, 255, .3);
 }
-
 .main-header {
-    color: white;
+    color: #D73B60;
     text-align: center;
     text-transform: uppercase;
 }
-
 .main-text {
-    color: white;
+    color: #D73B60;
     font-size: 1.1em;
     text-align: left;
     text-decoration: none;
 }
-
 .main-text ul {
     margin: 0;
 }
+.main-image {
+    text-align: center;
+}
 
 .footer-copyright {
+    color: #C0C0C0;
     text-align: center;
 }
