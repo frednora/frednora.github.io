@@ -1,8 +1,62 @@
 
-.myheader {
-    text-transform: uppercase;
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #69A583;
+}
+
+.nav {
     text-align: center;
 }
 
+.nav ul {
+    margin: 0;
+}
 
+.nav li {
+    display: inline;
+    padding: 0 2%;
+}
 
+.nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-text {
+    color: white;
+    font-size: 1.1em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main-text ul {
+    margin: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+}
