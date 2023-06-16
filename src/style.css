@@ -44,6 +44,10 @@ html, body {
     border-bottom: 2px solid rgba(200, 200, 200, .3);
 }
 
+.main-button {
+    text-align: center;
+}
+
 /* main footer.*/
 .main-footer {
     color: #C0C0C0;
