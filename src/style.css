@@ -1,7 +1,7 @@
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 32;
+    padding: 32;
     background-color: #F2EFEF;
 }
 
@@ -52,4 +52,14 @@ html, body {
 .main-footer {
     color: #C0C0C0;
     text-align: center;
+}
+
+/* ------------------------------------ */
+
+/* MEDIA QUERY */
+
+@media (min-width: 200px) and (max-width: 480px ) {
+	nav {
+    display: none;
+	}
 }

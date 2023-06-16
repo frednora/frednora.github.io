@@ -17,5 +17,8 @@ function gramadoHelloWorld(){
     }
 }
 
+function gramadoReloadPage(){
+    window.location.reload();
+}
 
 
