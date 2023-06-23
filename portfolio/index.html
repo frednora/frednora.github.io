@@ -1,20 +1,91 @@
 <!DOCTYPE html>
-<!-- todo: Link to Gramado and to this web page. -->
 
-<html lang="en">
+<html lang="en-US">
 
 <head>
-<title> Fred Nora's portfolio </title>
-<meta
-    name="author"
+<title>This is Fred Nora's portfolio</title>
+<meta 
+    charset="UTF-8">
+<meta 
+    name="viewport"
+    content="width=device-width, initial-scale=1">
+<meta 
+    name="description" 
     content="Fred Nora">
-<link href="style.css" rel="stylesheet"> 
+<meta 
+    name="author" 
+    content="Fred Nora">
+<link href="../assets/css/style.css" rel="stylesheet" >
 </head>
 
-<body>
-    <header class="myheader">Fred Nora's portfolio.</header>
-    <p>This is a work in progress.</p>
+<body id="page-top" onload="gramadoInitialize()">
+
+    <!-- Main header -->
+    <header>
+        <br>
+        <div 
+            class="main-header" 
+            id="main-header">
+            Fred Nora's portfolio
+        </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section>
+    <br>
+    <div class="main-image">
+    <img src="../assets/img/frednora.jpg" alt="Fred Nora's profile picture">
+    </div>
+    </section>
+
+
+    <!-- Section 2 -->
+    <section>
+    <div>
+    </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+    <div>
+    </div>
+    </section>
+
+    <!-- Navigation bar -->
+    <section>
+    <br>
+    <div>
+    <nav class="nav main-nav">
+        <ul>
+            <li><a href="https://github.com/gramado/gramado">Gramado</a></li>
+            <li><a href="https://github.com/frednora/frednora.github.io">This webpage</a></li>
+            <li><a href="https://github.com/frednora">Github profile</a></li>
+            <li><a href="https://facebook.com/frednora">Facebook profile</a></li>
+        </ul>
+    </nav>
+    </div>
+    </section>
+
+    <!-- Section  -->
+    <section>
+        <br>
+        <div class="main-button" id="main-button">
+        <button 
+            onclick="gramadoReloadPage()">
+            Refresh Page
+        </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <br>
+        <div class="main-footer">
+            <small>&copy; 2023 Fred Nora</small>
+        </div>
+    </footer>
+
+<!-- Cool scripts goes here! -->
+<script src="../assets/js/gramado.js"></script>
 </body>
-
 </html>
-
