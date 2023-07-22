@@ -1,0 +1,142 @@
+
+/*
+ * gramado.css minimalist css library.
+ * Created by Fred Nora.
+ * (This is a work in progress)
+ */
+
+/*
+ * Library components:
+ *   + ) Global scope. (main html elements)
+ *   + ) .gramado-nav class. (Navigation bar)
+ *   + ) .gramado-header class. (Main header)
+ *   + ) .gramado-button class. (Buttons)
+ *   + ...
+ *   + ) .gramado-footer class. (Main footer)
+ */
+
+/*
+ * Component: 
+ *     Global scope.
+ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2EFEF;
+}
+
+.gramado-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #D73B60;
+}
+.gramado-text {
+    text-align: center;
+}
+.gramado-button {
+    text-align: center;
+}
+.gramado-image-container {
+    text-align: center;
+}
+.gramado-image {
+    width: 75%;
+    height: auto;
+}
+.gramado-footer {
+    text-align: center;
+    color: #C0C0C0;
+}
+
+/*
+ * ------------------------------------------------------
+ * Component: Media queries. 
+ */
+
+/* MEDIA QUERY */
+
+/* small screen */
+@media (min-width: 200px) and (max-width: 1023px ) {
+
+/* navigation bar for small screens */
+.gramado-nav {
+    font-size: 4.0vw;
+    border-top: 2px solid rgba(200, 200, 200, .3);
+    border-bottom: 2px solid rgba(200, 200, 200, .3);
+}
+.gramado-nav ul {
+    text-align: center;
+    margin: 0;
+}
+.gramado-nav li {
+    text-align: center;
+    display: block;
+}
+.gramado-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #808080;
+    display: inline-block;
+}
+.gramado-nav a:hover {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.gramado-header{
+    font-size: 4.0vw;
+}
+.gramado-text{
+    font-size: 2.0vw;
+}
+.gramado-footer {
+    font-size: 1.0vw;
+    text-align: center;
+    color: #C0C0C0;
+}
+}
+
+
+/* large screen */
+@media (min-width: 1024px) {
+
+/* navigation bar for large screens */
+.gramado-nav {
+    font-size: 2.0vw;
+    border-top: 2px solid rgba(200, 200, 200, .3);
+    border-bottom: 2px solid rgba(200, 200, 200, .3);
+}
+.gramado-nav ul {
+    text-align: center;
+    margin: 0;
+}
+.gramado-nav li {
+    text-align: center;
+    display: inline;
+    padding: 0 2%;
+}
+.gramado-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #808080;
+    display: inline-block;
+}
+.gramado-nav a:hover {
+    background-color: rgba(255, 255, 255, .7); 
+}
+
+.gramado-header{
+    font-size: 1.0vw;
+}
+.gramado-text{
+    font-size: 0.9vw;
+}
+.gramado-footer {
+    font-size: 0.8vw;
+    text-align: center;
+    color: #C0C0C0;
+}
+}
+
