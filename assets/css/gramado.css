@@ -38,8 +38,8 @@ html, body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /*background-color: #F2EFEF;*/
-    background-color: #000000;
+    background-color: #F2EFEF;
+    /*background-color: #000000;*/
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -119,8 +119,8 @@ a:hover {
 /* navigation bar for small screens */
 .gramado-nav {
     font-size: 4.0vw;
-    border-top: 2px solid rgba(200, 200, 200, .3);
-    border-bottom: 2px solid rgba(200, 200, 200, .3);
+    border-top: 2px solid rgba(88, 88, 88, .3);
+    border-bottom: 2px solid rgba(129, 129, 129, .3);
 }
 .gramado-nav ul {
     text-align: center;
@@ -141,19 +141,23 @@ a:hover {
 }
 .gramado-nav a:hover {
     text-align: center;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(200, 200, 200, .6); 
 }
 
 .gramado-header{
     font-size: 4.0vw;
+    color: #202020;
 }
 .gramado-text{
     font-size: 2.0vw;
 }
+.gramado-image-container {
+    border-top: 4px solid rgba(222, 222, 222, .3);
+}
 .gramado-footer {
     font-size: 1.5vw;
     text-align: center;
-    color: #C0C0C0;
+    color: #808080;
     padding-bottom: 2%;
 }
 }
@@ -165,8 +169,8 @@ a:hover {
 /* navigation bar for large screens */
 .gramado-nav {
     font-size: 2.0vw;
-    border-top: 2px solid rgba(200, 200, 200, .3);
-    border-bottom: 2px solid rgba(200, 200, 200, .3);
+    border-top: 2px solid rgba(80, 80, 80, .3);
+    border-bottom: 2px solid rgba(123, 123, 123, .3);
 }
 .gramado-nav ul {
     text-align: center;
@@ -180,23 +184,27 @@ a:hover {
 .gramado-nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #808080;
+    color: #202020;
     display: inline-block;
 }
 .gramado-nav a:hover {
-    background-color: rgba(255, 255, 255, .7); 
+    background-color: rgba(200, 200, 200, .6); 
 }
 
 .gramado-header{
     font-size: 1.0vw;
+    color: #202020;
 }
 .gramado-text{
     font-size: 0.9vw;
 }
+.gramado-image-container {
+    border-top: 4px solid rgba(211, 211, 211, .3);
+}
 .gramado-footer {
     font-size: 0.8vw;
     text-align: center;
-    color: #C0C0C0;
+    color: #808080;
     padding-bottom: 2%;
 }
 }
