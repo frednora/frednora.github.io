@@ -11,12 +11,12 @@
     content="width=device-width, initial-scale=1.0">
 <meta 
     name="description" 
-    content="This app is a fork from Christmas2020 app, created by A. de Regt.">
+    content="This is the Fred Nora's web page.">
 <meta 
     name="author" 
-    content="A de Regt">
+    content="Fred Nora">
 
-<title>Christmas <?php echo date("Y"); ?></title>
+<title>Fred Nora</title>
 <style>
             /*
             body {
