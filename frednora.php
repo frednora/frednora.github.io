@@ -69,11 +69,12 @@
 
     <div class="core">
     <!-- Header -->
-    <h1>Fred Nora's PHP application</h1>
+    <h1>Fred Nora's webpage</h1>
 
     <br>
     <?php
-        $files = scandir(getcwd());
+        $cwd = getcwd();
+        $files = scandir($cwd);
         foreach ($files as $file)
         {
             if ( is_dir($file) && ctype_alnum($file) )
