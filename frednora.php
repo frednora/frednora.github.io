@@ -61,6 +61,7 @@
 <link rel="dns-prefetch" href="https://github.com/"/>
 
 <!-- Includes -->
+<link href="./assets/img/favicon.jpg" rel="shortcut icon" type="image/jpg"/>
 <link href="./assets/css/gramado.css" rel="stylesheet">
 
 </head>
@@ -108,7 +109,7 @@
     </div>
 
 <!-- Cool scripts goes here! -->
-<script src="./assets/js/gramado.js"></script>
+<script src="./assets/js/frednora.js"></script>
 </body>
 
 </html>
