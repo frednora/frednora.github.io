@@ -11,19 +11,14 @@
     content="width=device-width, initial-scale=1.0">
 <meta 
     name="description" 
-    content="This is the Fred Nora's web page.">
+    content="This is the Fred Nora's web page">
 <meta 
     name="author" 
     content="Fred Nora">
 
 <title>Fred Nora</title>
-<style>
-            /*
-            body {
-                background-color: green
-            }
-            */
 
+<style>
             .core {
                 position: absolute;
                 left: 50%;
@@ -45,17 +40,18 @@
                 text-align: center;
             }
 
-            .noicon {
-                padding-left: 30px;
+            .button:hover{
+                background-color: lightyellow;
             }
 
             .iconpos {
             }
 
-            .button:hover{
-                background-color: lightyellow;
+            .noicon {
+                padding-left: 30px;
             }
 </style>
+
 
 <!-- Prefetch -->
 <link rel="dns-prefetch" href="https://github.com/"/>
