@@ -19,39 +19,41 @@
 <title>Fred Nora</title>
 
 <style>
-            .core {
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-                border-radius: .33rem;
-                padding: 10px;
-                background-color: lightyellow; /*#44ab44;*/
-                box-shadow: 10px 10px lightgray;
-                text-align: center;
-            }
 
-            .button {
-                border: solid black 1px;
-                border-radius: .25rem;
-                padding: 10px;
-                color: black;
-                text-decoration: auto;
-                text-align: center;
-            }
+    /* Container */
+    .popup_container {
+        text-align: center;
+        background-color: lightyellow; /*#44ab44;*/
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: .33rem;
+        padding: 10px;
+        box-shadow: 10px 10px lightgray;
+    }
 
-            .button:hover{
-                background-color: lightyellow;
-            }
+    /* Button */
+    .button {
+        text-align: center;
+        text-decoration: auto;
+        color: black;
+        border: solid black 1px;
+        border-radius: .25rem;
+        padding: 10px;
+    }
+    .button:hover{
+        background-color: lightyellow;
+    }
 
-            .iconpos {
-            }
-
-            .noicon {
-                padding-left: 30px;
-            }
+    /* Icon */
+    .iconpos {
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+    .noicon {
+    }
 </style>
-
 
 <!-- Prefetch -->
 <link rel="dns-prefetch" href="https://github.com/"/>
@@ -64,7 +66,7 @@
 
 <body>
 
-    <div class="core">
+    <div class="popup_container">
     <!-- Header -->
     <h1>Fred Nora's webpage</h1>
 
@@ -88,18 +90,16 @@
     ?>
 
         <!-- Button -->
-        <br/>
-        <br/>
-        <a 
-            class="button" 
-            href="https://github.com/frednora/frednora.github.io">
-            <img class="iconpos" 
-                width="20" 
-                height="20" 
-                src="https://github.com/fluidicon.png"> See code at GitHub
-        </a>
-        
-        <br/>
+        <div class="gramado-container">
+            <br>
+            <button 
+                class="gramado-button"
+                id="main-button" 
+                onclick="frednoraReloadPage()">
+                Refresh Page
+            </button>
+        </div>
+
         <br/>
         <br/>
     </div>
