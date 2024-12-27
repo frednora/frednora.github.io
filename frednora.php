@@ -72,6 +72,9 @@
 
     <br>
     <?php
+        $thing = "world";
+        //printf ("Hello %s!\n", $thing);
+        echo ("Hello {$thing}!\n");
         $cwd = getcwd();
         $files = scandir($cwd);
         foreach ($files as $file)
