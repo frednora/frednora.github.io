@@ -30,7 +30,9 @@ function frednoraReloadPage(){
 /* Testing fetch */
 async function frednoraTestAPI(){
     const response = await fetch('https://dummyjson.com/products');
-    if (response.status === 200){
+    if (response.status !== 200){
+        return -1;
+    } else {
         const obj = await response.json();
         //console.log(obj.total);
         window.alert(obj.total);
