@@ -103,6 +103,17 @@
             </button>
         </div>
 
+        <!-- Button 2: Test Dummy JSON API-->
+        <div class="gramado-container">
+            <br>
+            <button 
+                class="gramado-button"
+                id="main-button" 
+                onclick="frednoraTestAPI()">
+                Test API
+            </button>
+        </div>
+
         <br/>
         <br/>
     </div>

@@ -26,6 +26,17 @@ function frednoraReloadPage(){
     window.location.reload();
 }
 
+
+/* Testing fetch */
+async function frednoraTestAPI(){
+    const response = await fetch('https://dummyjson.com/products');
+    if (response.status === 200){
+        const obj = await response.json();
+        //console.log(obj.total);
+        window.alert(obj.total);
+    }
+}
+
 /*
   INITIALIZATION
  */
