@@ -28,7 +28,7 @@ function frednoraReloadPage(){
 
 
 /* Testing fetch */
-async function frednoraTestAPI(){
+async function __frednoraTestAPI(){
     const response = await fetch('https://dummyjson.com/products');
     if (response.status !== 200){
         return -1;
@@ -38,6 +38,21 @@ async function frednoraTestAPI(){
         window.alert(obj.total);
     }
 }
+
+/* Testing fetch */
+// Phase generator.
+// See: https://www.freepublicapis.com/corporate-bullshit-generator
+async function frednoraTestAPI(){
+    const response = await fetch('https://corporatebs-generator.sameerkumar.website/');
+    if (response.status !== 200){
+        return -1;
+    } else {
+        const obj = await response.json();
+        console.log(obj);
+        window.alert(obj.phrase);
+    }
+}
+
 
 /*
   INITIALIZATION
