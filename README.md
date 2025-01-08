@@ -1,2 +1,3 @@
 # frednora.github.io
-Fred Nora's page.
+
+Fred Nora's personal page.
