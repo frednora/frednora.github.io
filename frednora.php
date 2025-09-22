@@ -15,7 +15,6 @@
 <meta 
     name="author" 
     content="Fred Nora">
-
 <title>Fred Nora</title>
 
 <style>
@@ -31,27 +30,6 @@
         border-radius: .33rem;
         padding: 10px;
         box-shadow: 10px 10px lightgray;
-    }
-
-    /* Button */
-    .button {
-        text-align: center;
-        text-decoration: auto;
-        color: black;
-        border: solid black 1px;
-        border-radius: .25rem;
-        padding: 10px;
-    }
-    .button:hover{
-        background-color: lightyellow;
-    }
-
-    /* Icon */
-    .iconpos {
-        padding-left: 100px;
-        padding-top: 100px;
-    }
-    .noicon {
     }
 </style>
 
@@ -82,7 +60,7 @@
             {
     ?>
 
-                <!-- Button -->
+                <!-- Link -->
                 <br/>
                 <a href="/<?php echo $file; ?>/index.html"><?php echo $file; ?>/</a>
 
@@ -113,7 +91,6 @@
             </button>
         </div>
 
-        <br/>
         <br/>
     </div>
 
