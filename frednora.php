@@ -32,6 +32,13 @@
         padding: 10px;
         box-shadow: 10px 10px lightgray;
     }
+    @media (max-width: 768px) {
+       .popup_container {
+       width: 90vw;
+       padding: 5vw;
+       font-size: 1.1em;
+       }
+    }
 </style>
 
 <!-- Prefetch -->
@@ -76,9 +83,11 @@
     ?>
 
         <!-- Button -->
-        <div class="gramado-container">
+        <div class="gramado-container" role="dialog" aria-modal="true">
             <br>
             <button 
+                role="button"
+                aria-modal="Refresh Page"
                 class="gramado-button"
                 id="main-button" 
                 onclick="frednoraReloadPage()">
@@ -90,6 +99,8 @@
         <div class="gramado-container">
             <br>
             <button 
+                role="button"
+                aria-modal="Test API"
                 class="gramado-button"
                 id="main-button" 
                 onclick="frednoraTestAPI()">
