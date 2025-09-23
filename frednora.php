@@ -21,8 +21,9 @@
 
     /* Container */
     .popup_container {
+        background: var(--gramado-color-bg);
+        color: var(--gramado-color-text);
         text-align: center;
-        background-color: lightyellow; /*#44ab44;*/
         position: absolute;
         left: 50%;
         top: 50%;
@@ -51,18 +52,23 @@
     <?php
         $thing = "world";
         //printf ("Hello %s!\n", $thing);
-        echo ("Hello {$thing}!\n");
+        echo ("Hello {$thing}! <br>\n");
         $cwd = getcwd();
         $files = scandir($cwd);
+        sort($files); //Sort the Directory List Alphabetically
+        // List directories
         foreach ($files as $file)
         {
-            if ( is_dir($file) && ctype_alnum($file) )
+            if ( is_dir($file) && 
+                 ctype_alnum($file) && 
+                 $file != 'assets' )
             {
     ?>
 
                 <!-- Link -->
+                <!-- We use htmlspecialchars to avoid XSS attacks. -->
                 <br/>
-                <a href="/<?php echo $file; ?>/index.html"><?php echo $file; ?>/</a>
+                <a href="/<?php echo htmlspecialchars($file); ?>/index.html"><?php echo htmlspecialchars($file); ?>/</a>
 
     <?php
             }

@@ -12,8 +12,14 @@
     --gramado-color-gray7:  #e0e0e0;
     --gramado-color-white:  #ffffff;
 
+/* App components */
+/* This helps you quickly theme or brand the library. */
+  --gramado-color-primary: #2563eb;   /* Modern blue (Material/Tailwind primary) */
+  --gramado-color-secondary: #64748b; /* Slate gray (neutral secondary) */
+  --gramado-color-accent: #f59e42;    /* Warm orange accent */
+  --gramado-color-bg: #f8fafc;        /* Light gray background */
 /* ... */
-
+  --gramado-color-text: #1e293b; /* Dark gray, very readable */
 }
 
 /*
