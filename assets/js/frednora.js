@@ -36,6 +36,8 @@ async function frednoraTestAPI(){
     } else {
         const obj = await response.json();
         //console.log(obj);
+        console.log("I am Cornholio!");
+        console.log("I need t.p. for my bunghole!");
         window.alert(obj.phrase);
     }
 }
